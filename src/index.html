@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Calender</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/db942e8d6c.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-first-color">
+    <div id="app" class="w-full h-full text-text-color">
+        <div id="centerContent" class="flex flex-col justify-center items-center pt-8">
+            <header id="title-main">
+                <h1 class="text-3xl font-title text-text-color">To Do List <i class="fa-solid fa-check-to-slot"></i></h1>
+            </header>
+
+            <div class="calenderContent  w-3/5 mt-14">
+                <div id="calenderHeader" class="flex flex-col">
+                    <div id="date" class="flex">
+                        <h1 class="text-lg flex-1">27 Nisan</h1>
+                        <h1 class="text-lg flex-none">2023</h1>
+                    </div>
+                </div>
+                <div id="days" class="flex rounded-2xl bg-second-color text-text-color border-third-color border-2 text-lg text-center py-2 my-3">
+                    <h1 class="flex-1">Pt</h1>
+                    <h1 class="flex-1">Sa</h1>
+                    <h1 class="flex-1">Ça</h1>
+                    <h1 class="flex-1">Pe</h1>
+                    <h1 class="flex-1">Cu</h1>
+                    <h1 class="flex-1">Ct</h1>
+                    <h1 class="flex-1">Pa</h1>
+                </div>
+                <div id="calender" class="flex flex-col text-sm text-center">
+                    <div id="firstWeek" class="flex flex-row py-3">
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">1</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">2</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">3</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">4</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">5</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">6</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">7</a>
+                    </div>
+                    <div id="secondWeek" class="flex flex-row py-3">
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">8</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">9</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">10</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">11</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">12</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">13</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">14</a>
+                    </div>
+                    <div id="thirdWeek" class="flex flex-row py-3">
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">15</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">16</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">17</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">18</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">19</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">20</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">21</a>
+                    </div>
+                    <div id="fourthWeek" class="flex flex-row py-3">
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">22</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">23</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">24</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">25</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">26</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">27</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">28</a>
+                    </div>
+                    <div id="fifthWeek" class="flex flex-row py-3">
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">29</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">30</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">31</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">1</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">2</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">3</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">4</a>
+                    </div>
+                    <div id="sixthWeek" class="flex flex-row py-3">
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">5</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">6</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">7</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">8</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">9</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">10</a>
+                        <a href="#" class="flex-1 hover:transition duration-500 hover:text-third-color hover:bg-second-color hover:text-lg">11</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
